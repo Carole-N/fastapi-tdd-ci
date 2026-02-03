@@ -24,4 +24,4 @@ def compute_bonus(sales: float) -> float:
     if sales < 50000:
         return sales * 0.05
 
-    return sales * 0.10
+    return sales * 0.30 # erreur volontaire pour l'exercice TDD (valeur correcte 0.10)
